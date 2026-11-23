@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El Muelle – Mariscos frescos en Guayaquil</title>
+  <meta name="description" content="Ceviches, encebollado, arroz marinero y pescado del día frente al río Guayas. Reserva tu mesa en El Muelle.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="El Muelle, inicio">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2a2 2 0 0 1 1 3.7V7h3v2h-3v10.9A7 7 0 0 0 19 14h-2l3-4 3 4h-2a9 9 0 0 1-18 0H1l3-4 3 4H5a7 7 0 0 0 6 5.9V9H8V7h3V5.7A2 2 0 0 1 12 2z"/></svg>
+        El Muelle
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#menu-carta">Menú</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#reservas" class="btn btn-sm">Reservar mesa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Cocina del Pacífico · Desde 2009</p>
+          <h1>Del mar a tu mesa, <em>el mismo día</em>.</h1>
+          <p class="lead">Ceviches, encebollado y arroces marineros preparados con pesca fresca de la costa ecuatoriana, a pasos del Malecón.</p>
+          <div class="hero-actions">
+            <a href="#reservas" class="btn">Reservar mesa</a>
+            <a href="#menu-carta" class="btn btn-line">Ver el menú</a>
+          </div>
+          <ul class="hero-info">
+            <li><strong>4.8 ★</strong> 1.200+ reseñas</li>
+            <li><strong>Martes a domingo</strong> almuerzo y cena</li>
+          </ul>
+        </div>
+        <figure class="hero-img">
+          <img src="img/hero.jpg" alt="Mesa de madera con ceviche de camarón, pescado frito, camarones al ajillo y patacones" width="1408" height="768">
+        </figure>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="#f7efe3" d="M0 40c120 30 240 40 360 30S600 20 720 25s240 35 360 35 240-20 360-30v50H0z"/></svg>
+    </section>
+
+    <section id="menu-carta" class="section sand">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">Nuestra carta</p>
+          <h2>Platos de la casa</h2>
+          <p>Precios en dólares (USD), incluyen IVA. Pregunta por la pesca del día.</p>
+        </header>
+        <div class="menu-grid">
+          <div class="menu-col">
+            <h3 class="menu-cat">Ceviches</h3>
+            <ul class="dishes">
+              <li><div><h4>Ceviche de camarón</h4><p>Camarón, limón, naranja, cebolla curtida, tomate y cilantro.</p></div><span class="price">$9.50</span></li>
+              <li><div><h4>Ceviche mixto</h4><p>Camarón, pescado y concha con salsa de la casa.</p></div><span class="price">$12.00</span></li>
+              <li><div><h4>Ceviche de concha</h4><p>Concha negra fresca, chifles y maíz tostado.</p></div><span class="price">$11.50</span></li>
+            </ul>
+            <h3 class="menu-cat">Sopas</h3>
+            <ul class="dishes">
+              <li><div><h4>Encebollado</h4><p>Albacora, yuca y cebolla curtida. Con chifles y pan.</p></div><span class="price">$5.50</span></li>
+              <li><div><h4>Sopa marinera</h4><p>Caldo de mariscos con camarón, calamar, pescado y mejillón.</p></div><span class="price">$11.00</span></li>
+            </ul>
+          </div>
+          <div class="menu-col">
+            <h3 class="menu-cat">Platos fuertes</h3>
+            <ul class="dishes">
+              <li><div><h4>Arroz marinero <span class="chip">Favorito</span></h4><p>Arroz amarillo con mariscos, maduro frito y ensalada.</p></div><span class="price">$13.50</span></li>
+              <li><div><h4>Corvina a la plancha</h4><p>Filete de corvina con menestra, arroz y patacones.</p></div><span class="price">$12.50</span></li>
+              <li><div><h4>Pescado frito entero</h4><p>Pargo del día, patacones, arroz y ensalada criolla.</p></div><span class="price">$14.00</span></li>
+              <li><div><h4>Camarones al ajillo</h4><p>Salteados en mantequilla de ajo con arroz y papas.</p></div><span class="price">$12.00</span></li>
+            </ul>
+            <h3 class="menu-cat">Bebidas</h3>
+            <ul class="dishes">
+              <li><div><h4>Jugo natural</h4><p>Maracuyá, naranjilla o mora.</p></div><span class="price">$2.50</span></li>
+              <li><div><h4>Limonada de coco</h4><p>Cremosa y bien fría.</p></div><span class="price">$3.50</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section">
+      <div class="container about">
+        <figure class="about-img">
+          <img src="img/chef.jpg" alt="Chef sirviendo un plato de sopa con camarones y pescado en la cocina de El Muelle" loading="lazy" width="1408" height="768">
+        </figure>
+        <div class="about-copy">
+          <p class="kicker">Nuestra historia</p>
+          <h2>Tres generaciones cocinando el sabor del Pacífico</h2>
+          <p>El Muelle nació como un pequeño puesto de ceviches en el Malecón. Hoy seguimos con las mismas recetas de la abuela Rosa y con la misma regla: <strong>si no llegó fresco esta mañana, no se sirve</strong>.</p>
+          <p>Trabajamos directo con pescadores artesanales de Posorja y Playas para garantizar calidad y precios justos.</p>
+          <ul class="features">
+            <li><strong>100%</strong><span>Pesca fresca diaria</span></li>
+            <li><strong>15</strong><span>Años en Guayaquil</span></li>
+            <li><strong>80</strong><span>Comensales por turno</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner" aria-label="Ambiente del restaurante">
+      <img src="img/local.jpg" alt="Salón de El Muelle al atardecer con vista al río y mesas de madera iluminadas" loading="lazy" width="1408" height="768">
+      <div class="banner-text container">
+        <p>“Atardeceres frente al río y el mejor encebollado de la ciudad.”</p>
+        <span>— Guía Gastronómica Guayaquil</span>
+      </div>
+    </section>
+
+    <section id="reservas" class="section navy">
+      <div class="container reserve">
+        <div class="reserve-copy">
+          <p class="kicker">Reservas</p>
+          <h2>Separa tu mesa</h2>
+          <p>Recomendamos reservar para fines de semana y grupos de más de 6 personas. Confirmamos tu reserva por WhatsApp.</p>
+          <div class="hours" id="horario">
+            <h3>Horario</h3>
+            <dl>
+              <div><dt>Martes a jueves</dt><dd>11:00 – 21:00</dd></div>
+              <div><dt>Viernes y sábado</dt><dd>11:00 – 22:30</dd></div>
+              <div><dt>Domingo</dt><dd>10:00 – 18:00</dd></div>
+              <div><dt>Lunes</dt><dd>Cerrado</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="form-card">
+          <form data-demo novalidate>
+            <div class="row">
+              <div class="field"><label for="m-nombre">Nombre</label><input id="m-nombre" type="text" name="nombre" autocomplete="name" required></div>
+              <div class="field"><label for="m-tel">Celular</label><input id="m-tel" type="tel" name="telefono" autocomplete="tel" required></div>
+            </div>
+            <div class="row">
+              <div class="field"><label for="m-fecha">Fecha</label><input id="m-fecha" type="date" name="fecha" required></div>
+              <div class="field"><label for="m-hora">Hora</label><input id="m-hora" type="time" name="hora" min="11:00" max="22:00" required></div>
+            </div>
+            <div class="field">
+              <label for="m-personas">Número de personas</label>
+              <select id="m-personas" name="personas" required>
+                <option value="">Selecciona</option>
+                <option>1 – 2 personas</option><option>3 – 4 personas</option><option>5 – 6 personas</option><option>7 o más</option>
+              </select>
+            </div>
+            <div class="field"><label for="m-notas">Comentarios (opcional)</label><textarea id="m-notas" name="notas" rows="3" placeholder="Cumpleaños, silla para bebé, alergias…"></textarea></div>
+            <button type="submit" class="btn btn-block">Confirmar reserva</button>
+          </form>
+          <div class="form-success" hidden tabindex="-1" role="status">
+            <h3>¡Reserva recibida!</h3>
+            <p>Gracias por elegirnos. Te escribiremos para confirmar tu mesa en los próximos minutos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="section sand">
+      <div class="container location">
+        <div>
+          <p class="kicker">Ubicación</p>
+          <h2>Encuéntranos junto al río</h2>
+          <address>
+            Malecón Simón Bolívar y Calle Loja<br>
+            Local 12, frente al muelle de cruceros<br>
+            Guayaquil, Ecuador
+          </address>
+          <p>Parqueo en el Malecón 2000 (entrada por Av. Olmedo). A 5 minutos caminando del Barrio Las Peñas.</p>
+          <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Malec%C3%B3n+Sim%C3%B3n+Bol%C3%ADvar+Guayaquil" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+        <div class="map" role="img" aria-label="Mapa ilustrativo de la ubicación de El Muelle junto al río Guayas">
+          <div class="map-river"></div>
+          <div class="map-road r1"></div><div class="map-road r2"></div><div class="map-road r3"></div>
+          <div class="map-pin"><span>El Muelle</span></div>
+          <p class="map-label">Río Guayas</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="brand">El Muelle</p>
+      <p>Mariscos frescos · Guayaquil, Ecuador · @elmuelle.gye</p>
+      <p class="credit">© <span data-year>2026</span> El Muelle (marca ficticia). · <a href="../index.html">Proyecto de portafolio · Diseñado por Fernando Acuña</a></p>
+    </div>
+  </footer>
+
+  <a href="#reservas" class="wa-float" aria-label="Reservar por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 9.9 9.9 5.2 16 5.2s11 4.7 11 10.6-4.9 10.6-11 10.6zm6-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2s0-.5.1-.6l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.4 3.6 5.8 5 2.9 1.1 3.4.9 4.1.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+    <span class="wa-text">Reservar</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

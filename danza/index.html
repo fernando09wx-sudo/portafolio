@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ritmo Studio – Academia de Danza en Guayaquil</title>
+  <meta name="description" content="Clases de salsa, bachata, ballet y urbano en Guayaquil para niños, jóvenes y adultos. Primera clase de prueba gratis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Ritmo Studio, inicio">
+        <span class="brand-mark" aria-hidden="true">R</span> Ritmo<span>Studio</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#clases">Clases</a></li>
+          <li><a href="#horarios">Horarios</a></li>
+          <li><a href="#profesores">Profesores</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#inscripcion" class="btn btn-sm">Clase gratis</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="hero">
+      <img src="img/hero.jpg" alt="Pareja bailando salsa en el salón principal de Ritmo Studio con luces cálidas" class="hero-bg" width="1408" height="768">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Academia de danza · Urdesa, Guayaquil</p>
+        <h1>Baila con <em>pasión</em>.<br>Muévete a tu ritmo.</h1>
+        <p class="lead">Clases de salsa, bachata, ballet y urbano para todas las edades y niveles. Tu primera clase es gratis.</p>
+        <div class="hero-actions">
+          <a href="#inscripcion" class="btn">Reserva tu clase de prueba</a>
+          <a href="#horarios" class="btn btn-ghost">Ver horarios</a>
+        </div>
+        <ul class="hero-stats" aria-label="Ritmo Studio en cifras">
+          <li><strong>+450</strong> alumnos activos</li>
+          <li><strong>12</strong> años enseñando</li>
+          <li><strong>4</strong> salones equipados</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clases" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Nuestras clases</p>
+          <h2>Un estilo para cada energía</h2>
+          <p>Grupos reducidos, profesores certificados y un ambiente donde equivocarse es parte de aprender.</p>
+        </header>
+        <div class="classes-grid">
+          <article class="class-card c-salsa">
+            <span class="tag">Parejas</span>
+            <h3>Salsa</h3>
+            <p>Estilo caleño y en línea. Aprende pasos básicos, vueltas y figuras para lucirte en cualquier fiesta.</p>
+            <p class="meta">Principiante · Intermedio · Avanzado</p>
+          </article>
+          <article class="class-card c-bachata">
+            <span class="tag">Parejas</span>
+            <h3>Bachata</h3>
+            <p>Bachata sensual y dominicana: conexión, musicalidad y técnica de guía para bailar con confianza.</p>
+            <p class="meta">Principiante · Intermedio</p>
+          </article>
+          <article class="class-card c-ballet with-img">
+            <img src="img/ballet.jpg" alt="Alumnas de ballet practicando en barra en un salón con grandes ventanales" loading="lazy" width="1408" height="768">
+            <div>
+              <span class="tag">Niñas, niños y adultos</span>
+              <h3>Ballet</h3>
+              <p>Método clásico desde los 4 años. Postura, flexibilidad y disciplina con presentaciones de fin de ciclo.</p>
+              <p class="meta">Pre-ballet · Infantil · Adultos</p>
+            </div>
+          </article>
+          <article class="class-card c-urbano with-img">
+            <img src="img/urbano.jpg" alt="Grupo de jóvenes ensayando una coreografía de danza urbana" loading="lazy" width="1408" height="768">
+            <div>
+              <span class="tag">Jóvenes y adultos</span>
+              <h3>Urbano</h3>
+              <p>Hip hop, dancehall y reggaetón. Coreografías nuevas cada mes y grupo de competencia.</p>
+              <p class="meta">Desde 12 años · Todos los niveles</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="horarios" class="section section-dark">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Horarios</p>
+          <h2>Encuentra tu horario ideal</h2>
+          <p>Clases de 60 minutos. Puedes combinar estilos con el plan Ilimitado.</p>
+        </header>
+        <div class="table-wrap" role="region" aria-label="Tabla de horarios" tabindex="0">
+          <table class="schedule">
+            <caption class="sr-only">Horario semanal de clases</caption>
+            <thead>
+              <tr><th scope="col">Hora</th><th scope="col">Lunes</th><th scope="col">Martes</th><th scope="col">Miércoles</th><th scope="col">Jueves</th><th scope="col">Viernes</th><th scope="col">Sábado</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">09:00</th><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td><span class="pill p-ballet">Pre-ballet</span></td></tr>
+              <tr><th scope="row">10:30</th><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td><span class="pill p-urbano">Urbano teens</span></td></tr>
+              <tr><th scope="row">16:00</th><td><span class="pill p-ballet">Ballet infantil</span></td><td><span class="pill p-urbano">Urbano kids</span></td><td><span class="pill p-ballet">Ballet infantil</span></td><td><span class="pill p-urbano">Urbano kids</span></td><td>—</td><td>—</td></tr>
+              <tr><th scope="row">18:00</th><td><span class="pill p-salsa">Salsa básico</span></td><td><span class="pill p-bachata">Bachata básico</span></td><td><span class="pill p-salsa">Salsa básico</span></td><td><span class="pill p-bachata">Bachata básico</span></td><td><span class="pill p-urbano">Urbano</span></td><td>—</td></tr>
+              <tr><th scope="row">19:15</th><td><span class="pill p-bachata">Bachata inter.</span></td><td><span class="pill p-salsa">Salsa inter.</span></td><td><span class="pill p-bachata">Bachata inter.</span></td><td><span class="pill p-salsa">Salsa inter.</span></td><td><span class="pill p-salsa">Social night</span></td><td>—</td></tr>
+              <tr><th scope="row">20:30</th><td><span class="pill p-ballet">Ballet adultos</span></td><td><span class="pill p-urbano">Urbano avanzado</span></td><td><span class="pill p-ballet">Ballet adultos</span></td><td><span class="pill p-urbano">Urbano avanzado</span></td><td>—</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-hint">Desliza la tabla horizontalmente en tu celular →</p>
+      </div>
+    </section>
+
+    <section id="profesores" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Profesores</p>
+          <h2>Aprende con los mejores</h2>
+        </header>
+        <div class="team-grid">
+          <article class="teacher">
+            <div class="avatar a1" aria-hidden="true">VM</div>
+            <h3>Valeria Mendoza</h3>
+            <p class="role">Directora · Salsa y Bachata</p>
+            <p>Campeona nacional de salsa en línea 2022. Más de 10 años formando parejas de baile.</p>
+          </article>
+          <article class="teacher">
+            <div class="avatar a2" aria-hidden="true">AC</div>
+            <h3>Andrés Cedeño</h3>
+            <p class="role">Urbano y Dancehall</p>
+            <p>Coreógrafo de videoclips y director de nuestro grupo de competencia juvenil.</p>
+          </article>
+          <article class="teacher">
+            <div class="avatar a3" aria-hidden="true">IR</div>
+            <h3>Isabel Ríos</h3>
+            <p class="role">Ballet clásico</p>
+            <p>Formada en el método Vaganova. Especialista en ballet infantil y técnica para adultos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="testimonios-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Testimonios</p>
+          <h2 id="testimonios-title">Lo que dicen nuestros alumnos</h2>
+        </header>
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote>“Llegué sin saber dar un paso y en tres meses ya bailaba salsa en la boda de mi hermana. ¡El ambiente es increíble!”</blockquote>
+            <figcaption><strong>Daniela P.</strong> · Alumna de salsa</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Mi hija de 6 años ama sus clases de ballet. Las profesoras son pacientes y muy profesionales.”</blockquote>
+            <figcaption><strong>Carlos M.</strong> · Papá de alumna</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Las clases de urbano son mi desestrés de la semana. Buena música, buena gente y mucha energía.”</blockquote>
+            <figcaption><strong>Kevin A.</strong> · Alumno de urbano</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="precios" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Precios</p>
+          <h2>Planes mensuales sin matrícula</h2>
+        </header>
+        <div class="pricing">
+          <article class="plan">
+            <h3>Básico</h3>
+            <p class="price"><span>$</span>35<small>/mes</small></p>
+            <ul><li>2 clases por semana</li><li>1 estilo a elección</li><li>Acceso a práctica libre</li></ul>
+            <a href="#inscripcion" class="btn btn-outline">Elegir plan</a>
+          </article>
+          <article class="plan featured">
+            <p class="badge">Más popular</p>
+            <h3>Pro</h3>
+            <p class="price"><span>$</span>55<small>/mes</small></p>
+            <ul><li>4 clases por semana</li><li>2 estilos a elección</li><li>Social night incluida</li></ul>
+            <a href="#inscripcion" class="btn">Elegir plan</a>
+          </article>
+          <article class="plan">
+            <h3>Ilimitado</h3>
+            <p class="price"><span>$</span>75<small>/mes</small></p>
+            <ul><li>Clases ilimitadas</li><li>Todos los estilos</li><li>10% en talleres y eventos</li></ul>
+            <a href="#inscripcion" class="btn btn-outline">Elegir plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscripcion" class="section section-dark">
+      <div class="container signup">
+        <div class="signup-copy">
+          <p class="eyebrow">Inscripción</p>
+          <h2>Tu primera clase es gratis</h2>
+          <p>Déjanos tus datos y te escribimos para confirmar el día y la hora de tu clase de prueba. Sin compromiso.</p>
+          <ul class="checks">
+            <li>Sin experiencia previa</li>
+            <li>Ropa cómoda y agua, ¡nada más!</li>
+            <li>Parqueo gratuito para alumnos</li>
+          </ul>
+        </div>
+        <div class="form-card">
+          <form data-demo novalidate>
+            <div class="field">
+              <label for="d-nombre">Nombre completo</label>
+              <input id="d-nombre" name="nombre" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="d-tel">Celular</label>
+              <input id="d-tel" name="telefono" type="tel" autocomplete="tel" placeholder="09XXXXXXXX" required>
+            </div>
+            <div class="field">
+              <label for="d-email">Correo electrónico</label>
+              <input id="d-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="d-clase">Clase de interés</label>
+              <select id="d-clase" name="clase" required>
+                <option value="">Selecciona una opción</option>
+                <option>Salsa</option><option>Bachata</option><option>Ballet</option><option>Urbano</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-block">Quiero mi clase gratis</button>
+          </form>
+          <div class="form-success" hidden tabindex="-1" role="status">
+            <h3>¡Gracias por inscribirte!</h3>
+            <p>Recibimos tus datos. Te contactaremos en las próximas horas para agendar tu clase de prueba.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="brand"><span class="brand-mark" aria-hidden="true">R</span> Ritmo<span>Studio</span></p>
+        <p>Av. Víctor Emilio Estrada, Urdesa Central<br>Guayaquil, Ecuador</p>
+      </div>
+      <div>
+        <h3>Horario de atención</h3>
+        <p>Lun – Vie: 15:00 a 21:30<br>Sábado: 08:30 a 13:00</p>
+      </div>
+      <div>
+        <h3>Síguenos</h3>
+        <p>Instagram · TikTok · Facebook<br>@ritmostudio.gye</p>
+      </div>
+    </div>
+    <p class="credit container">© <span data-year>2026</span> Ritmo Studio (marca ficticia). · <a href="../index.html">Proyecto de portafolio · Diseñado por Fernando Acuña</a></p>
+  </footer>
+
+  <a href="#inscripcion" class="wa-float" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 9.9 9.9 5.2 16 5.2s11 4.7 11 10.6-4.9 10.6-11 10.6zm6-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2s0-.5.1-.6l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.4 3.6 5.8 5 2.9 1.1 3.4.9 4.1.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

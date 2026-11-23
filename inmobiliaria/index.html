@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa Norte Inmobiliaria – Casas y departamentos en Guayaquil y Samborondón</title>
+  <meta name="description" content="Compra, vende o alquila tu propiedad con Casa Norte Inmobiliaria. Casas, departamentos y terrenos verificados en Guayaquil, Samborondón y Vía a la Costa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Casa Norte Inmobiliaria, inicio">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M4 15 16 5l12 10" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 13v13h16V13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><path d="M16 12l2.2 5.5L16 16l-2.2 1.5z" fill="#c8a24a"/></svg>
+        <span>Casa<strong>Norte</strong></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#propiedades">Propiedades</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#testimonios">Clientes</a></li>
+          <li><a href="#contacto" class="btn btn-sm">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="hero">
+      <img class="hero-bg" src="img/hero.jpg" alt="Casa moderna de dos pisos con ventanales, acabados de madera y jardín tropical" width="1408" height="768">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="overline">Guayaquil · Samborondón · Vía a la Costa</p>
+        <h1>Encuentra el hogar que estabas buscando</h1>
+        <p class="lead">Más de 300 propiedades verificadas, asesoría legal incluida y acompañamiento de principio a fin.</p>
+
+        <form class="search" role="search" aria-label="Buscar propiedades" onsubmit="event.preventDefault(); document.getElementById('propiedades').scrollIntoView();">
+          <div class="search-tabs" role="radiogroup" aria-label="Tipo de operación">
+            <label><input type="radio" name="op" value="comprar" checked> <span>Comprar</span></label>
+            <label><input type="radio" name="op" value="alquilar"> <span>Alquilar</span></label>
+          </div>
+          <div class="search-fields">
+            <div class="sfield">
+              <label for="s-zona">Ubicación</label>
+              <select id="s-zona"><option>Todas las zonas</option><option>Samborondón</option><option>Norte de Guayaquil</option><option>Vía a la Costa</option><option>Centro</option></select>
+            </div>
+            <div class="sfield">
+              <label for="s-tipo">Tipo</label>
+              <select id="s-tipo"><option>Casa</option><option>Departamento</option><option>Terreno</option><option>Oficina</option></select>
+            </div>
+            <div class="sfield">
+              <label for="s-precio">Precio máximo</label>
+              <select id="s-precio"><option>Sin límite</option><option>$100.000</option><option>$200.000</option><option>$350.000</option><option>$500.000</option></select>
+            </div>
+            <button type="submit" class="btn btn-search">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+              Buscar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="stats-bar" aria-label="Casa Norte en cifras">
+      <div class="container stats">
+        <div><strong>320+</strong><span>Propiedades activas</span></div>
+        <div><strong>1.150</strong><span>Familias asesoradas</span></div>
+        <div><strong>18</strong><span>Años de experiencia</span></div>
+        <div><strong>45 días</strong><span>Tiempo promedio de venta</span></div>
+      </div>
+    </section>
+
+    <section id="propiedades" class="section">
+      <div class="container">
+        <header class="section-head split">
+          <div>
+            <p class="overline dark">Destacadas</p>
+            <h2>Propiedades seleccionadas</h2>
+          </div>
+          <a href="#contacto" class="link-arrow">Ver todo el catálogo →</a>
+        </header>
+        <div class="props">
+          <article class="prop">
+            <div class="prop-media">
+              <img src="img/casa.jpg" alt="Casa con piscina y jardín en urbanización privada de Samborondón" loading="lazy" width="1408" height="768">
+              <span class="badge">En venta</span>
+            </div>
+            <div class="prop-body">
+              <p class="prop-price">$385.000</p>
+              <h3>Casa con piscina en Samborondón</h3>
+              <p class="prop-loc">Urb. La Puntilla, km 2.5</p>
+              <ul class="prop-specs" aria-label="Características">
+                <li><b>4</b> hab.</li><li><b>4.5</b> baños</li><li><b>320</b> m²</li>
+              </ul>
+            </div>
+          </article>
+          <article class="prop">
+            <div class="prop-media">
+              <img src="img/depto.jpg" alt="Sala amplia y luminosa de departamento con vista a la ciudad" loading="lazy" width="1408" height="768">
+              <span class="badge alt">En alquiler</span>
+            </div>
+            <div class="prop-body">
+              <p class="prop-price">$1.250 <small>/mes</small></p>
+              <h3>Departamento con vista en Puerto Santa Ana</h3>
+              <p class="prop-loc">Torre Bellini, piso 14</p>
+              <ul class="prop-specs" aria-label="Características">
+                <li><b>2</b> hab.</li><li><b>2</b> baños</li><li><b>110</b> m²</li>
+              </ul>
+            </div>
+          </article>
+          <article class="prop">
+            <div class="prop-media">
+              <img src="img/cocina.jpg" alt="Cocina abierta con isla de madera y comedor en departamento nuevo" loading="lazy" width="1408" height="768">
+              <span class="badge">Estreno</span>
+            </div>
+            <div class="prop-body">
+              <p class="prop-price">$168.000</p>
+              <h3>Departamento de estreno en Kennedy Norte</h3>
+              <p class="prop-loc">Av. Francisco de Orellana</p>
+              <ul class="prop-specs" aria-label="Características">
+                <li><b>3</b> hab.</li><li><b>2</b> baños</li><li><b>128</b> m²</li>
+              </ul>
+            </div>
+          </article>
+          <article class="prop">
+            <div class="prop-media">
+              <img src="img/hero.jpg" alt="Fachada de casa contemporánea con jardín de palmeras" loading="lazy" width="1408" height="768">
+              <span class="badge">En venta</span>
+            </div>
+            <div class="prop-body">
+              <p class="prop-price">$520.000</p>
+              <h3>Residencia moderna en Vía a la Costa</h3>
+              <p class="prop-loc">Urb. Puerto Azul, km 10.5</p>
+              <ul class="prop-specs" aria-label="Características">
+                <li><b>5</b> hab.</li><li><b>5</b> baños</li><li><b>450</b> m²</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section tinted">
+      <div class="container">
+        <header class="section-head">
+          <p class="overline dark">Servicios</p>
+          <h2>Todo lo que necesitas en un solo lugar</h2>
+        </header>
+        <div class="services">
+          <article class="service">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7v9H3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 20v-6h6v6" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            <h3>Venta de propiedades</h3>
+            <p>Valoración gratuita, fotos profesionales y difusión en los principales portales del país.</p>
+          </article>
+          <article class="service">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Alquiler y administración</h3>
+            <p>Seleccionamos inquilinos, cobramos cánones y nos encargamos del mantenimiento.</p>
+          </article>
+          <article class="service">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.5 12 2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Asesoría legal</h3>
+            <p>Revisión de escrituras, promesas de compraventa y trámites en el Registro de la Propiedad.</p>
+          </article>
+          <article class="service">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M7 15h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Crédito hipotecario</h3>
+            <p>Te ayudamos a comparar opciones con bancos y BIESS para conseguir la mejor tasa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="overline dark">Testimonios</p>
+          <h2>Familias que ya encontraron su hogar</h2>
+        </header>
+        <div class="testis">
+          <figure class="testi">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Vendimos nuestra casa en menos de dos meses y al precio que esperábamos. Muy profesionales con todo el papeleo.”</blockquote>
+            <figcaption><span class="ini" aria-hidden="true">MF</span><span><strong>María Fernanda León</strong><br>Vendió en Los Ceibos</span></figcaption>
+          </figure>
+          <figure class="testi">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Nos guiaron con el crédito del BIESS paso a paso. Hoy vivimos en nuestro primer departamento propio.”</blockquote>
+            <figcaption><span class="ini" aria-hidden="true">JR</span><span><strong>Jorge y Rosa Villacís</strong><br>Compraron en Kennedy Norte</span></figcaption>
+          </figure>
+          <figure class="testi">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Administran mis dos departamentos desde hace 3 años. Pagos puntuales y cero dolores de cabeza.”</blockquote>
+            <figcaption><span class="ini" aria-hidden="true">LP</span><span><strong>Luis Paredes</strong><br>Propietario inversionista</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-sec">
+      <div class="container contact">
+        <div class="contact-copy">
+          <p class="overline">Contacto</p>
+          <h2>Hablemos de tu próxima propiedad</h2>
+          <p>Un asesor te contactará en menos de 24 horas hábiles. Sin costo ni compromiso.</p>
+          <ul class="contact-list">
+            <li><b>Oficina:</b> Av. Juan Tanca Marengo km 1.5, Edif. Norte Plaza, of. 402</li>
+            <li><b>Horario:</b> Lunes a viernes 09:00 – 18:00 · Sábados 09:00 – 13:00</li>
+            <li><b>Correo:</b> info@casanorte.example</li>
+          </ul>
+        </div>
+        <div class="form-card">
+          <form data-demo novalidate>
+            <div class="field"><label for="c-nombre">Nombre y apellido</label><input id="c-nombre" type="text" autocomplete="name" required></div>
+            <div class="two">
+              <div class="field"><label for="c-email">Correo</label><input id="c-email" type="email" autocomplete="email" required></div>
+              <div class="field"><label for="c-tel">Teléfono</label><input id="c-tel" type="tel" autocomplete="tel" required></div>
+            </div>
+            <div class="field">
+              <label for="c-interes">Me interesa</label>
+              <select id="c-interes" required>
+                <option value="">Selecciona una opción</option>
+                <option>Comprar</option><option>Vender</option><option>Alquilar</option><option>Administración de mi propiedad</option>
+              </select>
+            </div>
+            <div class="field"><label for="c-msg">Mensaje</label><textarea id="c-msg" rows="4" placeholder="Cuéntanos qué estás buscando: zona, presupuesto, número de habitaciones…"></textarea></div>
+            <button type="submit" class="btn btn-block">Enviar mensaje</button>
+          </form>
+          <div class="form-success" hidden tabindex="-1" role="status">
+            <h3>¡Mensaje enviado!</h3>
+            <p>Gracias por confiar en Casa Norte. Un asesor se pondrá en contacto contigo muy pronto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <p class="brand"><span>Casa<strong>Norte</strong></span></p>
+      <nav aria-label="Pie de página"><a href="#propiedades">Propiedades</a> · <a href="#servicios">Servicios</a> · <a href="#contacto">Contacto</a></nav>
+      <p class="credit">© <span data-year>2026</span> Casa Norte Inmobiliaria (marca ficticia). · <a href="../index.html">Proyecto de portafolio · Diseñado por Fernando Acuña</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
